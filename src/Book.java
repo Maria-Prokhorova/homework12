@@ -11,20 +11,20 @@ public class Book {
         this.yearPublication = year;
     }
 
-    public String getTitleBook() {
-        return this.title;
+    public String getTitle() {
+        return title;
     }
 
-    public Author getAuthorBook() {
-        return this.author;
+    public Author getAuthor() {
+        return author;
     }
 
-    public int getYearPublicationBook() {
-        return this.yearPublication;
+    public int getYearPublication() {
+        return yearPublication;
     }
 
-    public void setYearPublication(int year) {
-        yearPublication = year;
+    public void setYearPublication(int yearPublication) {
+        this.yearPublication = yearPublication;
     }
 
     @Override

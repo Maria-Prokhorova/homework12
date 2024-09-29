@@ -9,17 +9,17 @@ public class Author {
         this.surname = surname;
     }
 
-    public String getNameAuthor() {
-        return this.name;
+    public String getName() {
+        return name;
     }
 
-    public String getSurnameAuthor() {
-        return this.surname;
+    public String getSurname() {
+        return surname;
     }
 
     @Override
     public String toString() {
-        return  name + " " + surname;
+        return name + " " + surname;
     }
 
     @Override
